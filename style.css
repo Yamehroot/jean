@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: 'Koulen', cursive;
+}
+.head {
+    min-height: 100vh;
+    width: 100;
+    background-image: linear-gradient (rgba (4,9,30, 0,7)rgba (4,9,30, 0,7)) url('k.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav img {
+    width: 100px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:rgb(247, 246, 246);
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background:   #f44336;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.about{
+    width: 100%;
+    padding: 200px 0px;
+    background-color: #191919;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5 px;
+}
+.image{
+    height: -2%;
+    width: 30 px;
+    margin-left: 1500 px;
+    margin-right: 80 px;
+
+}
+.about-text{
+    width: 5100 px;
+    margin-left: 700 px;
+    margin-right: 0 px;
+    margin-bottom: 100 px;
+}
+.main{
+    width: 2130px;
+    max-width: 95%;
+    margin: 0 px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-image: fill;
+    margin-left: 500 px;
+    margin-right: 0 px;
+}
+.about-text h2{
+    color: rgb(252, 248, 248);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 5 px;
+    margin-left: 180 px;
+
+
+}
+.about-text h6{
+    color: rgb(7, 7, 7);
+    letter-spacing: 2px;
+    font-size: 8 px;
+    margin-top: 8;
+    margin-bottom: 8 px;
+    text-transform: capitalize;
+    margin-left: 1000 px;
+}
+.about-text p{
+    color: rgb(8, 243, 231);
+    width: 100 px;
+    letter-spacing: 2 px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 200 px;
+    margin-left: 40px;
+    margin-right: 10 px;
+}
+.about-text h5{
+    color: rgb(240, 11, 152);
+    letter-spacing: 2 px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 500 px;
+    margin-left: 190 px;
+}
+.container{
+    height: 600 px;
+    position: relative;
+}
+button {
+    position: absolute;
+    left: 45%;
+    margin-top: 50px;
+
+}
+.header
+{
+    background: rgba(red, green, blue, alpha);
+    height: 100vh;
+}
+.video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height: auto;
+    width: auto;
+    z-index: -1;
+}
+.audio-background {
+    position: fixed;
+    
+}
